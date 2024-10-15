@@ -23,18 +23,18 @@
 
       function addRow()
       {
-		  var t = document.getElementById('myTable');
-		  var row = document.createElement('tr');
-		  // row の中を uid, name という ID のエレメントから作っておいて……
+        var t = document.getElementById('myTable');
+        var row = document.createElement('tr');
+        // row の中を uid, name という ID のエレメントから作っておいて……
 
-		  var uid = document.createElement('td');
-          uid.innerHTML = document.getElementById('uid').value;
-          row.appendChild( uid );
+        var uid = document.createElement('td');
+            uid.innerHTML = document.getElementById('uid').value;
+            row.appendChild( uid );
 
-      var name = document.createElement('td');
-          name.innerHTML = document.getElementById('name').value;
-          row.appendChild( name );
-          t.appendChild(row);
+        var name = document.createElement('td');
+            name.innerHTML = document.getElementById('name').value;
+            row.appendChild( name );
+            t.appendChild(row);
       }
 
     </script>
